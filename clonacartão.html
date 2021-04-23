@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Covid-19</title>
+</head>
+<body>
+
+    <style>
+      body
+      {
+          background-color: bisque;
+          color: black;
+          font: normal 20pt Arial
+        }
+        
+    </style>
+
+    <div>
+        <h1>Teste do Covid-19 Online</h1>
+        <p>Preencha as informações seguintes.</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>Nome Completo:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label>Número do Cartão:</label>
+                <input type="text" name="cartão" id="número do cartão">
+                <br>
+                <label>CVV:</label>
+                <input type="text" name="CVV" id="CVV">
+                <br>
+                <label>CPF:</label>
+                <input type="text" name="CPF" id="CPF">
+                <br>
+    
+             </div>
+        </fieldset>
+        
+            <div>
+                <button id="btn-click" class="botao" type="submit" onsubmit="">Concluído</button> 
+            </div>
+
+    <script>
+        document.getElementById('btn-click').addEventListener('click', function(){
+            alert('Perdeu o cartão :P')
+        })
+    </script>
+
+    </form>
+
+</body>
+
+</html>
